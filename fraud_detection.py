@@ -93,7 +93,7 @@ with open('fraud_detection.css') as f:
     custom_css = """
     <style>
         .st-af {
-            color: white !important;
+            color: black !important;
         }
     </style>
     """
