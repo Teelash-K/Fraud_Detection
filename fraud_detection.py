@@ -120,7 +120,7 @@ with st.form('my_form', clear_on_submit=True):
                 time.sleep(1)
                 st.write("Your Inputted Data:")           
 
-                input_var = pd.DataFrame([{'type' : Type, 'amount' : Amount, 'nameOrig' : NameOrig, 'oldbalanceOrig' : OldbalanceOrig, 'newbalanceOrig' : NewbalanceOrig, 'nameDest' : NameDest, 'oldbalanceDest' : OldbalanceDest, 'newbalanceDest' : NewbalanceDest,  'step' : Step,}])
+                input_var = pd.DataFrame([{'type' : Type, 'amount' : Amount, 'nameOrig' : NameOrig, 'oldbalanceOrig' : OldbalanceOrig, 'newbalanceOrig' : NewbalanceOrig, 'nameDest' : NameDest, 'oldbalanceDest' : OldbalanceDest, 'newbalanceDest' : NewbalanceDest,  'step' : Step}])
                 st.write(input_var) 
                     
                 from sklearn.preprocessing import LabelEncoder, StandardScaler
