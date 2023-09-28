@@ -95,7 +95,7 @@ df = pd.read_csv('column explanation.txt')
 custom_css = """
     <style>
         .st-af {
-            color: black !important;
+            color: white !important;
         }
     </style>
     """
