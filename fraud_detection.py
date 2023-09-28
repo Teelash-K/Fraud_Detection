@@ -82,26 +82,25 @@ add_bg_from_local('Untitled.jpeg')
 with open('fraud_detection.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-    st.markdown("<h1 style = 'top-margin: 0rem;text-align: center; color: #252B48;'>ONLINE PAYMENT FRAUD DETECTION</h1>", unsafe_allow_html=True)
-    st.markdown("<h6 style='font-weight: bold; font-style: italic; font-family: Optima; color: #F5F5DC'>built by TAIWO K. LASH</h6>", unsafe_allow_html=True)
-    st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown("<h1 style = 'top-margin: 0rem;text-align: center; color: #252B48;'>ONLINE PAYMENT FRAUD DETECTION</h1>", unsafe_allow_html=True)
+st.markdown("<h6 style='font-weight: bold; font-style: italic; font-family: Optima; color: #F5F5DC'>built by TAIWO K. LASH</h6>", unsafe_allow_html=True)
+st.markdown("<br><br>", unsafe_allow_html=True)
 
-    st.markdown("<h4 style='font-weight: bold; colour: #E55604'>Overview</h4>", unsafe_allow_html=True)
-
-    st.markdown("<p style='text-align: justify; color: #F5FCCD; background-color: #252B48; padding: 10px;'>Online payment fraud is a significant concern for financial institutions, e-commerce platforms, and consumers. Fraudsters continually devise new methods to exploit vulnerabilities in online payment systems, resulting in financial losses and security breaches. This application is built to identify online payment fraud swiftly and prevent fraudulent transactions in real-time.</p>", unsafe_allow_html=True)
+st.markdown("<h4 style='font-weight: bold; colour: #E55604'>Overview</h4>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: justify; color: #F5FCCD; background-color: #252B48; padding: 10px;'>Online payment fraud is a significant concern for financial institutions, e-commerce platforms, and consumers. Fraudsters continually devise new methods to exploit vulnerabilities in online payment systems, resulting in financial losses and security breaches. This application is built to identify online payment fraud swiftly and prevent fraudulent transactions in real-time.</p>", unsafe_allow_html=True)
 
     # data = pd.read_csv('onlinefraud.csv')
-    df = pd.read_csv('column explanation.txt')
+df = pd.read_csv('column explanation.txt')
     # df.reset_index(drop=True, inplace=True)
 
-    custom_css = """
+custom_css = """
     <style>
         .st-af {
             color: black !important;
         }
     </style>
     """
-    st.markdown(custom_css, unsafe_allow_html=True)
+st.markdown(custom_css, unsafe_allow_html=True)
 
 with st.form('my_form', clear_on_submit=True):
     st.header("FRAUD DETECTION")
