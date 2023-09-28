@@ -81,9 +81,8 @@ add_bg_from_local('Untitled.jpeg')
 #     # Import CSS file into Streamlit
 with open('fraud_detection.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
-st.markdown("<h1 style = 'top-margin: 0rem;text-align: center; color: #252B48;'>ONLINE PAYMENT FRAUD DETECTION</h1>", unsafe_allow_html=True)
-st.markdown("<h6 style='font-weight: bold; font-style: italic; font-family: Optima; color: #F5F5DC'>built by TAIWO K. LASH</h6>", unsafe_allow_html=True)
+    st.markdown("<h1 style = 'top-margin: 0rem;text-align: center; color: #252B48;'>ONLINE PAYMENT FRAUD DETECTION</h1>", unsafe_allow_html=True)
+st.write("<h6 style='font-weight: bold; font-style: italic; font-family: Optima; color: #F5F5DC'>built by TAIWO K. LASH</h6>", unsafe_allow_html=True)
 st.markdown("<br><br>", unsafe_allow_html=True)
 
 st.markdown("<h4 style='font-weight: bold; colour: #E55604'>Overview</h4>", unsafe_allow_html=True)
