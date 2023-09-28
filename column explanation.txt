@@ -1,0 +1,9 @@
+Number of step: represents a unit of time where 1 step equals 1 hour
+Type of Transaction: type of online transaction
+Amount: the amount of the transaction
+Customer Name: customer starting the transaction
+Balance Before Transaction':customer's balance  before the transaction
+Balance After Transaction': customer's balance after the transaction
+Recipient Name: recipient of the transaction
+Recipient Old Balance: initial balance of recipient before the transaction
+Recipient New Balance: the new balance of recipient after the transaction
